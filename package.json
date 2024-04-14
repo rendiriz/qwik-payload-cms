@@ -29,16 +29,33 @@
   "devDependencies": {
     "@builder.io/qwik": "^1.5.2",
     "@builder.io/qwik-city": "^1.5.2",
+    "@types/escape-html": "^1.0.4",
     "@types/eslint": "^8.56.6",
     "@types/node": "^20.11.30",
+    "@types/qs": "^6.9.14",
     "@typescript-eslint/eslint-plugin": "^7.3.1",
     "@typescript-eslint/parser": "^7.3.1",
+    "autoprefixer": "^10.4.14",
     "eslint": "^8.57.0",
     "eslint-plugin-qwik": "^1.5.2",
+    "postcss": "^8.4.31",
     "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.4",
+    "tailwindcss": "3.3.3",
     "typescript": "5.3.3",
     "undici": "*",
     "vite": "^5.1.6",
     "vite-tsconfig-paths": "^4.2.1"
+  },
+  "dependencies": {
+    "@lexical/list": "^0.14.3",
+    "@lexical/rich-text": "^0.14.3",
+    "@qwikest/icons": "^0.0.13",
+    "@unpic/qwik": "^0.0.44",
+    "clsx": "^2.1.0",
+    "escape-html": "^1.0.3",
+    "lexical": "^0.14.3",
+    "qs": "^6.12.1",
+    "tailwind-merge": "^2.2.2"
   }
 }

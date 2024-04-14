@@ -1,0 +1,54 @@
+/**
+ * Tailwind CSS imports
+ * View the full documentation at https://tailwindcss.com
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply mx-0 my-6 text-4xl font-bold md:my-7 md:text-5xl;
+  }
+  h2 {
+    @apply mx-0 my-[20px] text-3xl font-bold xl:my-[26px] xl:text-4xl;
+  }
+  h3 {
+    @apply mx-0 my-5 text-2xl font-bold xl:my-6 xl:text-3xl;
+  }
+  h4 {
+    @apply mx-0 my-5 text-xl font-bold xl:text-2xl;
+  }
+  h5 {
+    @apply mx-0 my-5 text-lg font-bold xl:text-xl;
+  }
+  h6 {
+    @apply mx-0 my-5 text-base font-bold xl:text-lg;
+  }
+
+  h1 a,
+  h2 a,
+  h3 a,
+  h4 a,
+  h5 a,
+  h6 a {
+    @apply text-teal-800 hover:text-teal-900 dark:text-teal-100 dark:hover:text-teal-200;
+  }
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  opacity: 0;
+}
+
+html.dark,
+html.light {
+  opacity: initial;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+
